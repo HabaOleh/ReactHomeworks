@@ -1,0 +1,23 @@
+.posts{
+    background: #075069;
+}
+.oddPost {
+    background: #03678c;
+    height: 30px;
+    color: black;
+    font-family:Bookman, URW Bookman L,serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+
+}
+
+.evenPost {
+    background: #033141;
+    height: 30px;
+    color: black;
+    font-family:Bookman, URW Bookman L,serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+}

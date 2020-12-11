@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import {withRouter} from "react-router-dom";
+import {Link, withRouter} from "react-router-dom";
+import "./User.css"
 class User extends Component {
     render() {
-        let {item}= this.props;
+        let {item,match:{url},cls}= this.props;
         return (
             <div>
-                {item.name}
+                <div className={cls}>{item.name}</div>
+                <div><Link className={"btn"} to={`${url}/${item.id}`}>Show details</Link></div>
             </div>
         );
     }

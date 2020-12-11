@@ -1,0 +1,15 @@
+.btnPost{
+    height: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family:Bookman, URW Bookman L,serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 15px;
+    float: right;
+    margin-right: 55%;
+    margin-top: -30px;
+}

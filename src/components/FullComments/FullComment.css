@@ -1,0 +1,23 @@
+.fullComments{
+    background: #032841;
+    color: #07acac;
+    font-family:Bookman, URW Bookman L,serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+    height: 300px;
+    float: right;
+    margin-top: -300px;
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.info{
+    color: #036180;
+    font-family:Bookman, URW Bookman L,sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+}

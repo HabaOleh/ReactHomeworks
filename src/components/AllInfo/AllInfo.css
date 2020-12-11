@@ -1,0 +1,27 @@
+
+.menu{
+    background: teal;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.txt-link{
+    text-decoration: none;
+    color: black;
+    font-family:Bookman, URW Bookman L,serif;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 18px;
+}
+.link{
+    height: 20px;
+    width: 20%;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    text-align: center;
+}
+.test{
+    background: black;
+}
